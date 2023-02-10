@@ -53,6 +53,16 @@
       "type": "uid",
       "targetField": "kurzeUeberschrift",
       "required": true
+    },
+    "BeschreibungDeutsch": {
+      "type": "text",
+      "required": true,
+      "maxLength": 155
+    },
+    "BeschreibungRumaenisch": {
+      "type": "text",
+      "required": true,
+      "maxLength": 155
     }
   }
 }
